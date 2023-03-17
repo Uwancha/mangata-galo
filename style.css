@@ -175,3 +175,35 @@ footer div a{
     padding: 10px;
     border-bottom: solid #41410d;
 }
+
+/*  Effects  */ 
+
+a {
+    text-decoration: none;
+    color: #f0ffff;
+    font-size: 16px;
+    transition: all 1s;
+}
+
+
+nav a:hover {
+    background-color: #f88e0d;
+    border-radius: 2px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+
+#banner article {
+    transition: all 1.2s;
+}
+
+
+#banner:hover article{
+    margin-left: 200px;
+    font-size: 24px;
+}
+
+#content article:hover {
+    box-shadow: 10px -10px 50px #000000;
+}
