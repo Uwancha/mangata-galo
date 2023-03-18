@@ -138,13 +138,14 @@ article img {
 
 #content button {
     background-color: #ff0000;
-    box-shadow: 5px -5px 15px #41410d;
     color: #f0f8ff;
     font-weight: 700;
     padding: 10px;
     border: none;
     border-radius: 15px;
+    transition: all 1.2s;
 }
+
 
 #content div p{
     color: #ea7f7fff;
@@ -189,8 +190,7 @@ a {
 nav a:hover {
     background-color: #f88e0d;
     border-radius: 2px;
-    font-size: 24px;
-    padding: 10px;
+    padding: 5px;
 }
 
 
@@ -200,10 +200,14 @@ nav a:hover {
 
 
 #banner:hover article{
-    margin-left: 200px;
-    font-size: 24px;
+    margin-left: 50%;
 }
 
 #content article:hover {
     box-shadow: 10px -10px 50px #000000;
 }
+
+#content button:hover {
+    box-shadow: 5px -5px 15px #41410d;
+}
+
