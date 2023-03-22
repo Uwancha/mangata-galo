@@ -15,4 +15,3 @@ In this project, the following concepts are demonstrated.
 **Effects and Transitions**
 
    - Effects and transitions are applied to give a user a good experience and  interactivity.
-   -
